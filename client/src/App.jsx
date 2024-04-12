@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import io from 'socket.io-client'
 
-const socket  = io.connect("http://localhost:1419");
+const socket  = io.connect("https://socket-hxth.onrender.com");
 
 
 const App = () => {
