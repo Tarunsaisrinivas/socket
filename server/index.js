@@ -23,7 +23,9 @@ io.on("connection", (socket) => {
   })
 
 });
-
+app.use("/",(req,res)=>{
+  res.send("Hello");
+})
 server.listen(1419, () => {
   console.log("Server is running on port 1419");
 });
